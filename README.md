@@ -47,19 +47,19 @@ Diseñar una clase que permita modelar el funcionamiento básico de un automóvi
 
 - cargar combustible(): está opción debe reponer combustible en el tanque tantos litros como se reciban como argumento pero teniendo en cuenta que el tanque tiene una capacidad de 49 lts más una reserva de 5 lts., en el caso de que los litros informados superen la capacidad del tanque, devolver la cantidad de lts de combustible derramados.
 
-Problema 2.7:
+Problema 2.7: Lista o Vector.
 
 Capturar en una lista los sueldos de 5 empleados y desplegarlos en una segunda lista aumentados en un 30%.
 
-Problema 2.8:
+Problema 2.8: Tabla o Matriz. 
 
 Capturar los datos de 5 productos comprados en una tienda, incluyendo nombre, precio y cantidad en sus 3 listas respectivas, después calcular una cuarta lista con el gasto total por cada producto desplegarlo todo en un segundo panel e incluir también el gran total.
 
-Problema 2.9:
+Problema 2.9: Tabla o Matriz.
 
 Construir una tabla o cuadro que contenga los ingresos mensuales por ventas de productos durante los tres primeros meses del año de cuatro sucursales de una cadena de supermercados, agregar al final una lista que muestre los ingresos mensuales totales por cada mes y una segunda lista que muestre los ingresos mensuales totales por cada sucursal.
 
-Problema 2.10:
+Problema 2.10: Relaciones de asociación y dependencia.
 
 Realizar un programa que permita modelar el funcionamiento básico de un automóvil, tal como se indica a continuación:
 - conducir(): esta opción debe recibir la cantidad de kilómetros a recorrer e informar si pueden ser recorridos y en tal caso descontar el combustible utilizado del tanque (se conoce que, por especificaciones técnicas del vehículo, con un litro recorre 11 km). Caso contrario informar que no hay combustible suficiente para el recorrido indicado.
