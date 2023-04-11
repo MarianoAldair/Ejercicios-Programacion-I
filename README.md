@@ -66,7 +66,7 @@ Realizar un programa que permita modelar el funcionamiento básico de un automó
 - cargar combustible(): está opción debe reponer combustible en el tanque tantos litros como se reciban como argumento pero teniendo en cuenta que el tanque tiene una capacidad de 49 lts más una reserva de 5 lts., en el caso de que los litros informados superen la capacidad del tanque, devolver la cantidad de lts de combustible derramados.
 - chequear nivel de combustible(): informar si el tanque está al 25%, 50%, 75% o lleno y dar una alerta en el caso que el tanque se encuentre en reserva, indicando que hay que reponer combustible de inmediato. El mensaje debe devolver una cadena con 25% ... o el alerta.
 
-Problema 2.11: Relaciones de asociación y dpendencia.
+Problema 2.11: Relaciones de asociación y dependencia.
 
 Vamos a desarrollar una baraja de cartas españolas orientado a objetos. Una carta tiene un número entre 1 y 12 (el 8 y el 9 no los incluimos) y un palo (espadas, bastos, oros y copas). La baraja estará compuesta por un conjunto de cartas, 40 exactamente.
 
