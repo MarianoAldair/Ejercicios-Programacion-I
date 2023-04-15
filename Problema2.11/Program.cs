@@ -58,7 +58,7 @@ namespace Problema2._11
             Baraja barajaEspañola = new Baraja();
             barajaEspañola.cartas = naipesEspañoles;
             #endregion
-
+            
             #region Muestro las cartas, barajo y vuelvo a mostrarlas.
             #region Ciclo for para mostrar todas las cartas y barajar.
             /*for (int i = 0; i < barajaEspañola.cantidadCartas; i++)
@@ -81,7 +81,6 @@ namespace Problema2._11
 
             //Pido todas las cartas a través del método siguienteCarta()
             //y muestro la cantidad de cartas disponibles con el método cantidadCartas()
-
             /*Console.WriteLine(barajaEspañola.CartasDisponibles());
             Console.WriteLine(barajaEspañola.SiguienteCarta());
             Console.WriteLine(barajaEspañola.CartasDisponibles());
@@ -91,15 +90,7 @@ namespace Problema2._11
             Console.WriteLine(barajaEspañola.CartasDisponibles());
             Console.WriteLine(barajaEspañola.SiguienteCarta());
             Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
             Console.WriteLine(barajaEspañola.SiguienteCarta());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.SiguienteCarta());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.SiguienteCarta());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.SiguienteCarta());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
             Console.WriteLine(barajaEspañola.CartasDisponibles());
             Console.WriteLine(barajaEspañola.SiguienteCarta());
             Console.WriteLine(barajaEspañola.CartasDisponibles());
@@ -109,60 +100,7 @@ namespace Problema2._11
             Console.WriteLine(barajaEspañola.CartasDisponibles());
             Console.WriteLine(barajaEspañola.SiguienteCarta());
             Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
             Console.WriteLine(barajaEspañola.SiguienteCarta());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.SiguienteCarta());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.SiguienteCarta());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.SiguienteCarta());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.SiguienteCarta());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.SiguienteCarta());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.SiguienteCarta());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.SiguienteCarta());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.SiguienteCarta());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.SiguienteCarta());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.SiguienteCarta());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.SiguienteCarta());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.SiguienteCarta());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.SiguienteCarta());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.SiguienteCarta());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.SiguienteCarta());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.SiguienteCarta());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.SiguienteCarta());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.SiguienteCarta());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.SiguienteCarta());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.SiguienteCarta());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.SiguienteCarta());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.SiguienteCarta());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
-            Console.WriteLine(barajaEspañola.SiguienteCarta());
-            Console.WriteLine(barajaEspañola.CartasDisponibles());
             Console.WriteLine(barajaEspañola.CartasDisponibles());
             Console.WriteLine(barajaEspañola.SiguienteCarta());
             Console.WriteLine(barajaEspañola.CartasDisponibles());
@@ -175,7 +113,59 @@ namespace Problema2._11
             Console.WriteLine(barajaEspañola.SiguienteCarta());
             Console.WriteLine(barajaEspañola.CartasDisponibles());
             Console.WriteLine(barajaEspañola.SiguienteCarta());
-            Console.WriteLine(barajaEspañola.SiguienteCarta());*/
+            Console.WriteLine(barajaEspañola.CartasDisponibles());
+            Console.WriteLine(barajaEspañola.SiguienteCarta());
+            Console.WriteLine(barajaEspañola.CartasDisponibles());
+            Console.WriteLine(barajaEspañola.SiguienteCarta());
+            Console.WriteLine(barajaEspañola.CartasDisponibles());
+            Console.WriteLine(barajaEspañola.SiguienteCarta());
+            Console.WriteLine(barajaEspañola.CartasDisponibles());
+            Console.WriteLine(barajaEspañola.SiguienteCarta());
+            Console.WriteLine(barajaEspañola.CartasDisponibles());
+            Console.WriteLine(barajaEspañola.SiguienteCarta());
+            Console.WriteLine(barajaEspañola.CartasDisponibles());
+            Console.WriteLine(barajaEspañola.SiguienteCarta());
+            Console.WriteLine(barajaEspañola.CartasDisponibles());
+            Console.WriteLine(barajaEspañola.SiguienteCarta());
+            Console.WriteLine(barajaEspañola.CartasDisponibles());
+            Console.WriteLine(barajaEspañola.SiguienteCarta());
+            Console.WriteLine(barajaEspañola.CartasDisponibles());
+            Console.WriteLine(barajaEspañola.SiguienteCarta());
+            Console.WriteLine(barajaEspañola.CartasDisponibles());
+            Console.WriteLine(barajaEspañola.SiguienteCarta());
+            Console.WriteLine(barajaEspañola.CartasDisponibles());
+            Console.WriteLine(barajaEspañola.SiguienteCarta());
+            Console.WriteLine(barajaEspañola.CartasDisponibles());
+            Console.WriteLine(barajaEspañola.SiguienteCarta());
+            Console.WriteLine(barajaEspañola.CartasDisponibles());
+            Console.WriteLine(barajaEspañola.SiguienteCarta());
+            Console.WriteLine(barajaEspañola.CartasDisponibles());
+            Console.WriteLine(barajaEspañola.SiguienteCarta());
+            Console.WriteLine(barajaEspañola.CartasDisponibles());
+            Console.WriteLine(barajaEspañola.SiguienteCarta());
+            Console.WriteLine(barajaEspañola.CartasDisponibles());
+            Console.WriteLine(barajaEspañola.SiguienteCarta());
+            Console.WriteLine(barajaEspañola.CartasDisponibles());
+            Console.WriteLine(barajaEspañola.SiguienteCarta());
+            Console.WriteLine(barajaEspañola.CartasDisponibles());
+            Console.WriteLine(barajaEspañola.SiguienteCarta());
+            Console.WriteLine(barajaEspañola.CartasDisponibles());
+            Console.WriteLine(barajaEspañola.SiguienteCarta());
+            Console.WriteLine(barajaEspañola.CartasDisponibles());
+            Console.WriteLine(barajaEspañola.SiguienteCarta());
+            Console.WriteLine(barajaEspañola.CartasDisponibles());
+            Console.WriteLine(barajaEspañola.SiguienteCarta());
+            Console.WriteLine(barajaEspañola.CartasDisponibles());
+            Console.WriteLine(barajaEspañola.SiguienteCarta());
+            Console.WriteLine(barajaEspañola.CartasDisponibles());
+            Console.WriteLine(barajaEspañola.SiguienteCarta());
+            Console.WriteLine(barajaEspañola.CartasDisponibles());
+            Console.WriteLine(barajaEspañola.SiguienteCarta());
+            Console.WriteLine(barajaEspañola.CartasDisponibles());
+            //Acá pido aunque no haya más cartas
+            Console.WriteLine(barajaEspañola.SiguienteCarta());
+            Console.WriteLine(barajaEspañola.CartasDisponibles());*/
+
             #endregion
 
             #region Pido una cantidad específica de cartas y muestro la cantidad restante.
@@ -190,12 +180,22 @@ namespace Problema2._11
             Console.WriteLine(barajaEspañola.CartasDisponibles());
             Console.WriteLine(barajaEspañola.DarCartas(11));
             Console.WriteLine(barajaEspañola.CartasDisponibles());
+            Console.WriteLine(barajaEspañola.DarCartas(8));
+            Console.WriteLine(barajaEspañola.CartasDisponibles());
+            Console.WriteLine(barajaEspañola.DarCartas(10));
+            Console.WriteLine(barajaEspañola.CartasDisponibles());
             Console.WriteLine("");*/
 
             #endregion
 
-            #region Muestro las cartas dadas.
-            //Console.WriteLine(barajaEspañola.CartasMonton());
+            #region Pido algunas cartas y muestro las cartas dadas.
+            
+            /*Console.WriteLine(barajaEspañola.CartasMonton());
+            Console.WriteLine(barajaEspañola.DarCartas(10));
+            Console.WriteLine(barajaEspañola.CartasMonton());
+            Console.WriteLine(barajaEspañola.DarCartas(5));
+            Console.WriteLine(barajaEspañola.CartasMonton());*/
+
             #endregion
 
             #region Muestro la baraja restante.
@@ -204,7 +204,7 @@ namespace Problema2._11
 
             #region Prueba general de todos los métodos.
 
-            for (int i = 0; i < barajaEspañola.cartas.Count; i++)
+            /*for (int i = 0; i < barajaEspañola.cartas.Count; i++)
             {
                 Console.WriteLine(barajaEspañola.cartas[i].valor);
             }
@@ -250,8 +250,8 @@ namespace Problema2._11
             Console.WriteLine(barajaEspañola.CartasDisponibles());
             Console.WriteLine("");
             Console.WriteLine(barajaEspañola.MostrarBaraja());
-            Console.WriteLine("");
-
+            Console.WriteLine("");*/
+           
             #endregion
 
             Console.ReadKey();

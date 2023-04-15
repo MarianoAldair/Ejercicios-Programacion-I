@@ -24,49 +24,22 @@ namespace Problema2._11
             for (int i = 0; i < Cartas.Count; i++)
             {
                 cartasParaBarajar.Add(Cartas[i]);
-                //Console.WriteLine(cartasParaBarajar[i].valor);
             }
 
             List<Carta> cartasMezcladas = new List<Carta>();
             Random r = new Random();
             cartasMezcladas = cartasParaBarajar.OrderBy(_ => r.Next(0, Cartas.Count)).ToList();
-
-            /*for (int i = 0;i < Cartas.Length;i++)
-            {
-                int RN = r.Next(0, cartasParaBarajar.Count - 1);
-                Carta cartaSeleccionada = cartasParaBarajar[RN];
-                if (cartasParaBarajar.Contains(cartaSeleccionada) && !cartasMezcladas.Contains(cartaSeleccionada))
-                {
-                    cartasMezcladas[i] = cartaSeleccionada;
-                    cartasParaBarajar.Remove(cartaSeleccionada);
-                } else
-                {
-                    
-                }
-            }*/
-
             Cartas = cartasMezcladas;
             return "Baraja mezclada.";
         }
 
         public string SiguienteCarta()
         {
-            /*List<Carta> barajaRestante = new List<Carta>();
-            for (int i = 0; i < Cartas.Length; i++)
-            {
-                barajaRestante.Add(Cartas[i]);
-            }
-
-            Carta ultimaCarta = barajaRestante[barajaRestante.Count - 1];
-            CantidadCartas--;
-            barajaRestante.RemoveAt(barajaRestante.Count - 1);
-            return ultimaCarta.valor;*/
-
             if (cantidadCartas == 0) return "No hay más cartas.";
             Carta ultimaCarta = Cartas[CantidadCartas - 1];
             CantidadCartas--;
+            MontonDado.Add(ultimaCarta);
             Cartas.Remove(ultimaCarta);
-            //MontonDado.Add(ultimaCarta);
             return ultimaCarta.valor;
         }
 
@@ -83,6 +56,7 @@ namespace Problema2._11
 
             Random r = new Random();
             Carta cartaSeleccionada;
+
             for (int i = 0; i < n; i++)
             {
                 cartaSeleccionada = Cartas[r.Next(0, Cartas.Count)];
@@ -94,6 +68,7 @@ namespace Problema2._11
                     MontonDado.Add(cartaSeleccionada);
                 }
             }
+
             string cadenaADevolver = "";
 
             for(int j = 0; j <= cartasADevolver.Length; j++)
@@ -113,6 +88,7 @@ namespace Problema2._11
             {
                 cartasDadas[i] = MontonDado[i].valor;
             }
+
             string dev;
 
             dev = String.Join(", ", cartasDadas);
