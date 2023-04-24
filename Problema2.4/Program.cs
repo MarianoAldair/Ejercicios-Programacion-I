@@ -71,7 +71,7 @@ namespace Problema2._4
             Console.WriteLine("Mariano tiene " + Mariano.edad + " años.");
             Console.WriteLine("Mariano pesa " + Mariano.peso + " kilogramos.");
             //Creando otra instancia de la clase Persona y haciendo nuevas pruebas en consola:
-            Persona Benjamin = new Persona("Benjamin", 15, 'M', 90, 1.80);
+            Persona Benjamin = new Persona("Benjamin", 15, 'M', 90, 1.78);
             Console.WriteLine("Probando la consola");
             Console.WriteLine("IMC de Benjamin: " + Benjamin.calcularIMC() + ".");
             Console.WriteLine("Benjamin, ¿es mayor de edad? " + Benjamin.esMayorDeEdad() + ".");
